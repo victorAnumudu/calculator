@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#container{
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border: 1px solid black;
+    padding: 5px;
+}
+.screenCon{
+    border: 1px solid #000;
+}
+#screen, #screenAns{
+    padding: 0 10px;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+    /* border: 1px solid #000; */
+    color: #000;
+}
+table{
+    background-color: rgba(52, 77, 64, 0.7);
+    padding: 5px;
+}
+tr{
+    /* background-color: darkgrey; */
+}
+td{
+    width: 70px;
+    padding: 5px;
+}
+.number{
+    text-align: center;
+    border-radius: 5px;
+    width: 100%;
+    padding: 5px;
+}
